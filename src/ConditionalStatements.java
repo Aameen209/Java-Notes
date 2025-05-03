@@ -5,26 +5,25 @@ import java.util.Scanner;
 //public class ConditionalStatements {
 //    public static void main(String[] args) {
 //
-//
 //        //conditional statement
 //        boolean isSunUp = true;
 //        if (isSunUp == true)
-//            System.out.println("day");
+//            System.out.println("day"); // Output: day (because isSunUp is true)
 //        else
-//        System.out.println("Night");
+//            System.out.println("Night");
 //
-//int age = 30;
-//if(age < 18)
-//    System.out.println("Minor");
-//else
-//    System.out.println("Major");
+//        int age = 30;
+//        if(age < 18)
+//            System.out.println("Minor");
+//        else
+//            System.out.println("Major"); // Output: Major (30 > 18)
 //    }
 //}
 
 //conditional statements
 //        Scanner sc = new Scanner(System.in);
 //pen = 10; notebook = 40
-//int cash = sc.nextInt();
+//int cash = sc.nextInt(); // user input
 //if(cash<10){
 //    System.out.println("can't buy anything");
 //    System.out.println("get more cash");}
@@ -37,16 +36,16 @@ import java.util.Scanner;
 //}
 
 //*********  Switch Statements   ***********
-//        int day = 3; // 1-monday; 2-tuesday jis day case se match karega wahi break hoke bahar aa jaayega
+//        int day = 3; // 1-monday; 2-tuesday; 3-wednesday
 //
 //        switch (day) {
 //            case 1:
 //                System.out.println("monday");
 //            case 2:
 //                System.out.println("tuesday");
-//                break; // bina break ke ye aage wale saare case print kardega
+//                break; // breaks after this case
 //            case 3:
-//                System.out.println("wednesday");
+//                System.out.println("wednesday"); // Output: wednesday (case 3 matched)
 //                break;
 //            default:
 //                System.out.println("thur-sun");
@@ -59,13 +58,13 @@ import java.util.Scanner;
 //        while (true) {
 //            if (i == 3) {
 //                i = i + 1;
-//                continue;
+//                continue; // skips printing 3 and continues loop
 //            }
-//            System.out.println(i);
+//            System.out.println(i); // Output: 0 1 2 4 5
 //            i = i+1;
 //            if (i > 5) {
-//            break;
+//                break; // exits loop when i > 5
+//            }
 //        }
 //    }
-//}
 //}

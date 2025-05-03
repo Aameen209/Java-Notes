@@ -2,31 +2,33 @@
 //{
 // ek function banake baar baar usi ko use kar lenge
 //    public static void printJava() {
-//        System.out.println("khan");}
+//        System.out.println("khan"); // prints "khan"
+//    }
 //
 //    public static void main(String[] args) {
 //
-//    printJava();
-//    printJava();
-//    printJava();}
+//        printJava(); // Output: khan
+//        printJava(); // Output: khan
+//        printJava(); // Output: khan
 //    }
+//}
 
     //Baar baar sout likhne ki zarurat nahi hai ek function (printname) banake baar baar usi ko call kar lenge alag alag input daal sakte hai
 //    public static void printName(String name) {
-//    System.out.println(name);
-//}
+//        System.out.println(name); // prints the input name
+//    }
 //    public static void main(String[] args) {
-//        printName("khan");
-//        printName("pathan");
+//        printName("khan");   // Output: khan
+//        printName("pathan"); // Output: pathan
 //    }
 //}
 
     //2 value ka sum bina baar baar sout likhe
 //    public static void printSum(int a, int b) {
-//        int sum = a+b;
-//        System.out.println(sum);
+//        int sum = a + b;
+//        System.out.println(sum); // prints the result of addition
 //    }
 //    public static void main(String[] args) {
-//     printSum(6,4);
+//        printSum(6, 4); // Output: 10
 //    }
 //}
